@@ -1,0 +1,83 @@
+html, div, span, applet, object, iframe,N
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.hero {
+  height: 140px;
+  background: #409234;
+  background: -webkit-linear-gradient(left, #409234 , yellow, #409234);
+  background: -o-linear-gradient(right, #409234, yellow, #409234);
+  background: -moz-linear-gradient(right, #409234, yellow, #409234);
+  background: linear-gradient(to right, #409234 , yellow, #409234);
+  font-family: calibri;
+}
+
+h1,h2 {
+  padding-top: 20px;
+}
+
+nav {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+section {
+  height: 180px;
+  width: 900px;
+  background-color: darkgrey;
+  font-size: 18px;
+  padding-left: 40px;
+}
+
+.container {
+
+  margin: 0 auto;
+
+  font-family: inherit;
+  border-radius: 10px;
+  text-align: center;
+}
+
+img {
+  height: 180px;
+  width: 180;
+  float: right;
+  border-radius: 10px;
+}
+
+p {
+  padding-right: 40px;
+  width: 540px;
+  padding-top: 15px;
+}
+
+body {
+  background-image: url("http://imgur.com/xFnw8c1.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 20.4px;
+}
